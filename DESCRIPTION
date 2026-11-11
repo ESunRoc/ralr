@@ -1,0 +1,21 @@
+Package: ralr
+Type: Package
+Title: A robust normalization procedure for microbiome data
+Version: 0.1.2
+Authors@R: c(
+    person(
+      "Eli", "Sun",
+      email = "eli_sun@urmc.rochester.edu",
+      role = c("aut", "cre")
+    ),
+    person(
+      "Michael", "Sohn",
+      role = c("ctb")
+    )
+  )
+Description: Normalizes high-dimensional longitudinal/grouped compositional data according to the robust additive log-ratio transformation (ralr).
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+Imports: dplyr, tidyr, purrr, stringr, tibble, stats, tidyselect
+Config/roxygen2/version: 8.1.0
